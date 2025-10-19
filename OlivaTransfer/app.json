@@ -1,0 +1,32 @@
+{
+    "name": "OlivaTransfer",
+    "author": "RmCat",
+    "namespace": "OlivaTransfer",
+    "info": "基于OlivOS驱动的跨平台内容转发插件",
+    "priority": 30000,
+    "svn": 1,
+    "compatible_svn": 187,
+    "message_mode": "olivos_string",
+    "support": [
+        {
+            "sdk": "onebot",
+            "platform": "qq",
+            "model": "all"
+        },
+        {
+            "sdk": "all",
+            "platform": "telegram",
+            "model": "all"
+        }
+    ],
+    "menu_config": [
+        {
+            "title": "启用内容转发",
+            "event": "plugin_on"
+        },
+        {
+            "title": "停用内容转发",
+            "event": "plugin_off"
+        }
+    ]
+}
